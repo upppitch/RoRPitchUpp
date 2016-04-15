@@ -1,0 +1,53 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+button {
+  margin: 0 3px 10px 0;
+  width: 99px;
+  padding-left: 2px;
+  padding-right: 2px; }
+
+button:last-of-type {
+  margin: 0; }
+
+p.borderBelow {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0; }
+
+video {
+  height: 232px;
+  margin: 0 12px 20px 0;
+  vertical-align: top;
+  width: calc(20em - 10px); }
+
+video:last-of-type {
+  margin: 0 0 20px 0; }
+
+video#gumVideo {
+  margin: 0 20px 20px 0; }
+
+@media screen and (max-width: 500px) {
+  button {
+    font-size: 0.8em;
+    width: calc(33% - 5px); } }
+@media screen and (max-width: 720px) {
+  video {
+    height: calc((50vw - 48px) * 3 / 4);
+    margin: 0 10px 10px 0;
+    width: calc(50vw - 48px); }
+
+  video#gumVideo {
+    margin: 0 10px 10px 0; } }
