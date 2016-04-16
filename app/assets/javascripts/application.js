@@ -12,8 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require ga
-//= require adapter
-//= require webcam
+
 //= require turbolinks
 //= require_tree .
