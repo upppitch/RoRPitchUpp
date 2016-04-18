@@ -87,18 +87,6 @@ function errorCallback(error) {
   console.log('navigator.getUserMedia error: ', error);
 }
 
-// navigator.mediaDevices.getUserMedia(constraints)
-// .then(function(stream) {
-//   console.log('getUserMedia() got stream: ', stream);
-//   window.stream = stream; // make available to browser console
-//   if (window.URL) {
-//     gumVideo.src = window.URL.createObjectURL(stream);
-//   } else {
-//     gumVideo.src = stream;
-//   }
-// }).catch(function(error) {
-//   console.log('navigator.getUserMedia error: ', error);
-// });
 
 function handleSourceOpen(event) {
   console.log('MediaSource opened');
